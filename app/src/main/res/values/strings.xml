@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">YourStudy0.3</string>
+
+    <string name="entrar">Entrar</string>
+    <string name="cadastrar">Não tem conta? Crie agora.</string>
+
+    //cadrastro
+    <string name="title_cadastro" translatable="false">Cadastre-se</string>
+
+
+</resources>
