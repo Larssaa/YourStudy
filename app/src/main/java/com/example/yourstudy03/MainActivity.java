@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 if(edit_email.getText().toString().isEmpty() || edit_senha.getText().toString().isEmpty()){
                     Toast.makeText(MainActivity.this, "Preencha o campo", Toast.LENGTH_LONG).show();
                     edit_email.requestFocus();
-                }else if(edit_email.getText().toString().equals("Login@domonio.com" )&&
+                }else if(edit_email.getText().toString().equals("123@gmail.com" )&&
                          edit_senha.getText().toString().equals("123")   ){
 
                     Intent intent = new Intent(getApplicationContext(), Principal.class);
@@ -44,7 +44,8 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "Login Incorreto!", Toast.LENGTH_LONG).show();
                     edit_email.requestFocus();
                 }
-
+                Intent intent = new Intent(MainActivity.this, Principal.class);
+                startActivity(intent);
             }
         });
 

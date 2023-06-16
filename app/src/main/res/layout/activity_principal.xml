@@ -13,18 +13,17 @@
         android:layout_marginTop="180dp"
         android:text="Login Efetuado com Sucesso"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/bt_voltar"
+        app:layout_constraintBottom_toTopOf="@+id/bt_Voltar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/bt_voltar"
+        android:id="@+id/bt_Voltar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="177dp"
-        android:text="voltar"
-        android:onClick="voltar"
+        android:text="Voltar"
         android:textSize="16sp"
         app:layout_constraintTop_toBottomOf="@+id/textViewLogin"
         tools:layout_editor_absoluteX="109dp"
